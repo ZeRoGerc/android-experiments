@@ -1,4 +1,4 @@
-package com.zeroger.application.model;
+package com.zerogerc.application.model;
 
 import android.os.Handler;
 import android.os.Looper;

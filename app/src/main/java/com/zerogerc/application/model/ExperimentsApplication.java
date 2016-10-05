@@ -1,4 +1,4 @@
-package com.zeroger.application.model;
+package com.zerogerc.application.model;
 
 import android.app.Application;
 import android.content.Context;
