@@ -33,6 +33,6 @@ public class IntegrationTestRunner extends BaseTestRunner {
 
     @NonNull
     public static IntegrationTestApplication app() {
-        return ((IntegrationTestApplication) RuntimeEnvironment.application);
+        return (IntegrationTestApplication) RuntimeEnvironment.application;
     }
 }
