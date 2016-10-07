@@ -13,5 +13,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerInParent="true"
+        android:text="Success!"
+        android:textColor="@color/success_color"
+        android:textSize="24sp" />
 </RelativeLayout>

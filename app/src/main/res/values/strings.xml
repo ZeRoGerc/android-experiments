@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Application</string>
+    <string name="app_name">Fingerprint</string>
+
+    <string name="sign_in">Sign in</string>
+
+    <string name="fingerprint_confirm">Confirm fingerprint to continue</string>
+
+    <string name="fingerprint_touch">Touch sensor</string>
+
+    <string name="fingerprint_not_recognized">Fingerprint not recognized. Try again</string>
+
+    <string name="fingerprint_success">Fingerprint recognized</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="auth_successful">Authorization successful!</string>
+
+    <string name="invalid_password_string">Invalid password</string>
 </resources>
