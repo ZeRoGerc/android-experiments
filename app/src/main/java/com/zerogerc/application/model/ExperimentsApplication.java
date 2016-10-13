@@ -4,6 +4,10 @@ import android.app.Application;
 import android.content.Context;
 import android.support.annotation.NonNull;
 
+import com.fuck_boilerplate.rx_paparazzo.RxPaparazzo;
+
+import rx_activity_result.RxActivityResult;
+
 public class ExperimentsApplication extends Application {
 
     @SuppressWarnings("NullableProblems") // onCreate
@@ -14,6 +18,8 @@ public class ExperimentsApplication extends Application {
     public void onCreate() {
         super.onCreate();
         applicationComponent = initApplicationComponent();
+        RxPaparazzo.register(this);
+        RxActivityResult.register(this);
     }
 
     @NonNull
