@@ -3,6 +3,7 @@ package com.zerogerc.application.model;
 import android.app.Application;
 import android.content.Context;
 import android.support.annotation.NonNull;
+import android.support.multidex.MultiDex;
 
 import com.fuck_boilerplate.rx_paparazzo.RxPaparazzo;
 
@@ -18,6 +19,7 @@ public class ExperimentsApplication extends Application {
     public void onCreate() {
         super.onCreate();
         applicationComponent = initApplicationComponent();
+        MultiDex.install(this);
         RxPaparazzo.register(this);
         RxActivityResult.register(this);
     }

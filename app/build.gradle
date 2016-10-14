@@ -115,5 +115,5 @@ dependencies {
     compile "com.github.VictorAlbertos:RxActivityResult:0.3.7"
 
     compile 'com.vk:androidsdk:1.6.5'
-    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+    compile 'com.facebook.android:facebook-android-sdk:4.16.1'
 }
