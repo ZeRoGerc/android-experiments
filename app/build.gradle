@@ -66,6 +66,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     testCompile 'com.squareup.assertj:assertj-android:1.1.0'
     testCompile 'org.robolectric:robolectric:3.1.2'
+    testCompile 'org.khronos:opengl-api:gl1.1-android-2.1_r1'
 
     compile 'com.android.support:appcompat-v7:' + versionsSupportLibs
     compile 'com.android.support:design:' + versionsSupportLibs
