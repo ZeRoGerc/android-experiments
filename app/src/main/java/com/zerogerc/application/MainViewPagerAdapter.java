@@ -9,7 +9,7 @@ import java.util.List;
 
 public class MainViewPagerAdapter extends SmartFragmentStatePagerAdapter {
 
-    private static final int COUNT = 2;
+    private static final int COUNT = 3;
 
     @NonNull
     private final List<String> titles = new ArrayList<>(COUNT);
@@ -18,6 +18,7 @@ public class MainViewPagerAdapter extends SmartFragmentStatePagerAdapter {
         super(fragmentManager);
         titles.add("Date");
         titles.add("Time");
+        titles.add("Additional");
     }
 
     @Override
@@ -25,8 +26,10 @@ public class MainViewPagerAdapter extends SmartFragmentStatePagerAdapter {
         switch (position) {
             case 0:
                 return new DateFragment();
-            default:
+            case 1:
                 return new TimeFragment();
+            default:
+                return new AdditionalFragment();
         }
     }
 

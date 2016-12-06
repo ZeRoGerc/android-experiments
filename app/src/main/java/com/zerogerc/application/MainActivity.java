@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements BottomBarFragment
     public void onSecondItemClicked() {
         getSupportFragmentManager().beginTransaction()
                 .replace(R.id.main_activity_fragment_container, new AdditionalFragment(), MainFragment.class.getName())
+                .addToBackStack(null)
                 .commit();
     }
 }
